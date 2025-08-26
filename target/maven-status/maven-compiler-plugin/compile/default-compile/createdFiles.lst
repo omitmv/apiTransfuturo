@@ -1,0 +1,4 @@
+com\transfuturo\config\plugin\SwaggerConfig.class
+com\transfuturo\config\common\DatabaseConfig.class
+com\transfuturo\ApiTransfuturoApplication.class
+com\transfuturo\config\security\JwtConfig.class
