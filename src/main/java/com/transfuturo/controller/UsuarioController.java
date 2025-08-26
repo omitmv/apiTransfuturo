@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.transfuturo.config.common.PasswordEncryptor;
 import com.transfuturo.dto.request.UsuarioLoginRequest;
 import com.transfuturo.dto.response.UsuarioLoginResponse;
 import com.transfuturo.repository.UsuarioRepository;
@@ -21,7 +22,8 @@ public class UsuarioController {
 
     @PostMapping("/login")
     public ResponseEntity<UsuarioLoginResponse> login(@RequestBody UsuarioLoginRequest request) {
-        Map<String, Object> result = usuarioRepository.autenticarUsuario(request.getLogin(), request.getSenha());
+        String senhaCriptografada = PasswordEncryptor.encryptMD5(request.getSenha());
+        Map<String, Object> result = usuarioRepository.autenticarUsuario(request.getLogin(), senhaCriptografada);
         boolean autenticado = false;
         String mensagem = "Usuário ou senha inválidos.";
         if (result != null && result.get("autenticado") != null && ((Number)result.get("autenticado")).intValue() == 1) {
