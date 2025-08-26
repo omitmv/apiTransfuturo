@@ -3,6 +3,7 @@ C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\j
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\common\PasswordEncryptor.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\plugin\SwaggerConfig.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\security\JwtConfig.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\security\JwtUtil.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\security\SecurityConfig.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\controller\UsuarioController.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\dto\request\UsuarioLoginRequest.java
