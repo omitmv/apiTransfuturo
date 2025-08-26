@@ -2,3 +2,9 @@ C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\j
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\common\DatabaseConfig.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\plugin\SwaggerConfig.java
 C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\security\JwtConfig.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\config\security\SecurityConfig.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\controller\UsuarioController.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\dto\request\UsuarioLoginRequest.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\dto\response\UsuarioLoginResponse.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\entity\Usuario.java
+C:\Users\RafaelValverde\Desktop\OneDrive\Projetos\Java\apiTransfuturo\src\main\java\com\transfuturo\repository\UsuarioRepository.java

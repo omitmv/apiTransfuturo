@@ -1,4 +1,10 @@
 com\transfuturo\config\plugin\SwaggerConfig.class
+com\transfuturo\repository\UsuarioRepository.class
+com\transfuturo\dto\response\UsuarioLoginResponse.class
+com\transfuturo\dto\request\UsuarioLoginRequest.class
 com\transfuturo\config\common\DatabaseConfig.class
+com\transfuturo\entity\Usuario.class
 com\transfuturo\ApiTransfuturoApplication.class
+com\transfuturo\controller\UsuarioController.class
+com\transfuturo\config\security\SecurityConfig.class
 com\transfuturo\config\security\JwtConfig.class
