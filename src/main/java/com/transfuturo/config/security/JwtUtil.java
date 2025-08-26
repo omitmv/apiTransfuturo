@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import io.swagger.v3.oas.annotations.media.Schema;
 
+@Schema(description = "Utilitário para geração e validação de tokens JWT")
 @Component
 public class JwtUtil {
     @Autowired

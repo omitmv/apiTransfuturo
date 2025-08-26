@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Configuração do banco de dados")
 @Configuration
 public class DatabaseConfig {
     @Value("${spring.datasource.url}")

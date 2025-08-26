@@ -2,9 +2,12 @@ package com.transfuturo.config.plugin;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 
+@Schema(description = "Configuração do Swagger")
 @Configuration
 public class SwaggerConfig {
     @Bean

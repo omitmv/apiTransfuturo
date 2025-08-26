@@ -15,6 +15,9 @@ import com.transfuturo.dto.request.UsuarioLoginRequest;
 import com.transfuturo.dto.response.UsuarioLoginResponse;
 import com.transfuturo.repository.UsuarioRepository;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Controller para gerenciamento de usuários")
 @RestController
 @RequestMapping("/usuario")
 public class UsuarioController {
@@ -24,6 +27,7 @@ public class UsuarioController {
     @Autowired
     private JwtUtil jwtUtil;
 
+    @Schema(description = "Endpoint para autenticação de usuários, para utilização da api")
     @PostMapping("/login")
     public ResponseEntity<UsuarioLoginResponse> login(@RequestBody UsuarioLoginRequest request) {
         String senhaCriptografada = PasswordEncryptor.encryptMD5(request.getSenha());

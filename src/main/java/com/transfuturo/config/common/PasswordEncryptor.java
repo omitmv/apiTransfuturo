@@ -3,6 +3,9 @@ package com.transfuturo.config.common;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Classe responsável pela criptografia de senhas")
 public class PasswordEncryptor {
     public static String encryptMD5(String password) {
         try {

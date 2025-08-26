@@ -1,5 +1,6 @@
 package com.transfuturo.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,6 +8,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+@Schema(description = "Entidade que representa um usuário do sistema")
 @Entity
 @Table(name = "tbctrusuario")
 public class Usuario {

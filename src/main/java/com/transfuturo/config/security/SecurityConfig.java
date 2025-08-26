@@ -6,6 +6,9 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Configuração de segurança da API")
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {

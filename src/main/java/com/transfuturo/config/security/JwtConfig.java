@@ -3,6 +3,9 @@ package com.transfuturo.config.security;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Configuração do JWT")
 @Configuration
 public class JwtConfig {
     @Value("${jwt.secret}")

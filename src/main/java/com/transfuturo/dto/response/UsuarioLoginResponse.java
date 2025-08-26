@@ -1,8 +1,14 @@
 package com.transfuturo.dto.response;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Dados de resposta para autenticação de usuários")
 public class UsuarioLoginResponse {
+    @Schema(description = "Indica se o usuário está autenticado")
     private boolean autenticado;
+    @Schema(description = "Mensagem de resposta")
     private String mensagem;
+    @Schema(description = "Token de autenticação")
     private String token;
 
     public UsuarioLoginResponse() {}
