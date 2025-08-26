@@ -1,5 +1,7 @@
 package com.transfuturo.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,7 +21,7 @@ public class UsuarioController {
 
     @PostMapping("/login")
     public ResponseEntity<UsuarioLoginResponse> login(@RequestBody UsuarioLoginRequest request) {
-        java.util.Map<String, Object> result = usuarioRepository.autenticarUsuario(request.getUsername(), request.getPassword());
+        Map<String, Object> result = usuarioRepository.autenticarUsuario(request.getLogin(), request.getSenha());
         boolean autenticado = false;
         String mensagem = "Usuário ou senha inválidos.";
         if (result != null && result.get("autenticado") != null && ((Number)result.get("autenticado")).intValue() == 1) {

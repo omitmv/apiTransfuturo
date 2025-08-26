@@ -1,11 +1,11 @@
 package com.transfuturo.dto.request;
 
 public class UsuarioLoginRequest {
-    private String username;
-    private String password;
+    private String login;
+    private String senha;
 
-    public String getUsername() { return username; }
-    public void setUsername(String username) { this.username = username; }
-    public String getPassword() { return password; }
-    public void setPassword(String password) { this.password = password; }
+    public String getLogin() { return login; }
+    public void setLogin(String login) { this.login = login; }
+    public String getSenha() { return senha; }
+    public void setSenha(String senha) { this.senha = senha; }
 }
