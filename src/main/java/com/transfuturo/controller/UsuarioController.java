@@ -19,7 +19,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(description = "Controller para gerenciamento de usuários")
 @RestController
-@RequestMapping("/usuario")
+@RequestMapping("/v1/usuario")
 public class UsuarioController {
     @Autowired
     private UsuarioRepository usuarioRepository;
